@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug OSX",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/build_osx",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build OSX",
+            "MIMode": "lldb"
+        }
+    ]
+}
